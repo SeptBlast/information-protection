@@ -1,0 +1,47 @@
+{
+  "name": "information-protection",
+  "version": "1.0.0",
+  "description": "Microsoft Information Protest RestAPI implementation over the file stack protection.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "prodStart": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeptBlast/information-protection.git"
+  },
+  "keywords": [
+    "MicrosoftInformationProtect",
+    "MIP",
+    "AzureInformationProtect",
+    "AIP",
+    "Microsoft",
+    "Azure",
+    "Microsoft365",
+    "Office365",
+    "Sensitivity",
+    "Labels",
+    "Retention",
+    "Labels"
+  ],
+  "author": "Devesh Kumar",
+  "license": "Mozilla Public License 2.0",
+  "bugs": {
+    "url": "https://github.com/SeptBlast/information-protection/issues"
+  },
+  "homepage": "https://github.com/SeptBlast/information-protection#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "requests": "^0.3.0",
+    "swagger-jsdoc": "^4.3.0",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
